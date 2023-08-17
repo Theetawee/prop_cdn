@@ -1129,14 +1129,14 @@ input:checked + .toggle-bg{
   margin-right: auto;
 }
 
-.my-5{
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mb-1{
@@ -1161,6 +1161,10 @@ input:checked + .toggle-bg{
 
 .mr-3{
   margin-right: 0.75rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .mt-2{
@@ -1275,6 +1279,10 @@ input:checked + .toggle-bg{
   width: 100%;
 }
 
+.w-6{
+  width: 1.5rem;
+}
+
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1285,6 +1293,10 @@ input:checked + .toggle-bg{
 
 .max-w-xl{
   max-width: 36rem;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
 }
 
 .flex-1{
@@ -1411,6 +1423,10 @@ input:checked + .toggle-bg{
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-1{
+  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2015,5 +2031,9 @@ input:checked + .toggle-bg{
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:text-center{
+    text-align: center;
   }
 }
